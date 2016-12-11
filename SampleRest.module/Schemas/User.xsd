@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/User" xmlns:tns="http://www.example.org/User" elementFormDefault="qualified">
+    
+    <complexType name="User">
+        <sequence>
+            <element minOccurs="0" name="User" type="string"/>
+            <element minOccurs="0" name="Region" type="string"/>
+        </sequence>
+    </complexType>
+    
+    <element name="User" type="tns:User"/>
+    
+    
+</schema>
